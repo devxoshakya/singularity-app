@@ -9,9 +9,9 @@ function delay(ms: number): Promise<void> {
 type SolverResult = any;
 
 export async function processRollNumbers(): Promise<Boolean> {
-  const inputFilePath: string = path.join(__dirname, "src/rollNumbers.txt");
-  const outputFilePath: string = path.join(__dirname, "out/results.json");
-  const logsFilePath: string = path.join(__dirname, "utils/logs.txt");
+  const inputFilePath: string = path.join(__dirname, "../src/rollNumbers.txt");
+  const outputFilePath: string = path.join(__dirname, "../out/results.json");
+  const logsFilePath: string = path.join(__dirname, "../utils/logs.txt");
   
   try {
     let results: SolverResult[] = [];
