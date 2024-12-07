@@ -1,0 +1,24 @@
+{
+  "name": "results",
+  "module": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun app.ts",
+    "test": "bun utils/solver.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/qs": "^6.9.17",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0",
+    "exceljs": "^4.4.0",
+    "qs": "^6.13.1"
+  },
+  "version": "0.1.0",
+  "description": "A result extraction platform"
+}
