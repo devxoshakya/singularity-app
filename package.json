@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "bun app.ts",
-    "test": "bun utils/solver.ts"
+    "test": "bun utils/solver.ts",
+    "excel": "bun utils/excel.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
